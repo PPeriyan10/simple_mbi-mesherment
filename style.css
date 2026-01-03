@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #050505;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1f03f3;
+    font-weight: 500;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #d60505;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #e6f10a;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #06e25a;
+    color: rgb(248, 249, 253);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #a545cb;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f10909;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.result.show {
+    display: block;
+}
+
+.bmi-value {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.bmi-value {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.bmi-category {
+    font-size: 20px;
+    margin: 10px 0;
+}
+pading: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}   
+    padding: 10px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+.underweight {
+    color: #3498db;
+}
+
+.normal {
+    color: #27ae60;
+}
+
+.overweight {
+    color: #f39c12;
+}
+
+.obese {
+    color: #e74c3c;
+}
